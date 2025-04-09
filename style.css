@@ -126,3 +126,60 @@ section {
   left: 0;
   background-color: var(--card-bg);
 }
+/* ------- hero sectio style ------- */
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+.hero-content,
+.hero-img {
+  width: 50%;
+}
+.hero-img img {
+  width: 100%;
+}
+.hero-content h2 {
+  font-size: 3rem;
+  line-height: 65px;
+}
+
+.hero-content p {
+  margin-top: 40px;
+}
+.hero-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  margin-top: 40px;
+}
+.view-menu-btn {
+  padding: 7px 35px;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  color: var(--);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--secondary-color);
+  font-family: "pop-med";
+}
+.play-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: var(--primary-color);
+  border: 5px solid #689e48;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px -2px #689e48;
+}
+.play-btn i {
+  color: var(--secondary-color);
+}
+.hero-content {
+  padding-top: 40px;
+}
