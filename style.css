@@ -445,3 +445,90 @@ section {
   font-size: 0.9rem;
   cursor: pointer;
 }
+
+/* ======== FOOTER STYLE ======== */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: var(--card-bg);
+}
+.footer-wrapper {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.footer-logo {
+  width: 40%;
+}
+
+.footer-box {
+  width: 15%;
+}
+
+.footer-logo p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.subscribe-box input {
+  padding: 15px 7px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #acb2b2;
+  font-size: 0.9rem;
+}
+
+.subscribe-box input::placeholder {
+  color: #acb2b2;
+}
+
+.subscribe-btn {
+  padding: 15px 25px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.footer-link-title {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.footer-link {
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ======== ANIMATING STYLE ======== */
+.section {
+  transition: transform 1s, opacity 1s;
+}
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
