@@ -401,3 +401,47 @@ section {
   font-size: 0.9rem;
   cursor: pointer;
 }
+/* -------- blog section style -------- */
+.blog-top {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.blog-top h2 {
+  font-size: 2rem;
+}
+
+.blog-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.blog-item {
+  width: 33%;
+  border: 1px solid var(--card-bg);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.blog-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog-content h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  background-color: transparent;
+  padding: 0 !important;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
