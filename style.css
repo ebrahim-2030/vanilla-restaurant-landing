@@ -257,3 +257,78 @@ section {
 .dish-item:hover {
   transform: translateY(-1rem);
 }
+/* -------- about us section style -------- */
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+.about-img,
+.about-content {
+  width: 50%;
+}
+
+.about-img img {
+  width: 100%;
+}
+.about-content h3 {
+  font-size: 1.7rem;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.learn-more,
+.view-more-btn,
+.read-more {
+  padding: 7px 35px;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  color: var(--secondary-color);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  font-family: "pop-med";
+}
+.learn-more a {
+  color: var(--secondary-color);
+  font-family: "pop-med";
+}
+/* -------- menu section style -------- */
+.menu-section-top {
+  margin-bottom: 50px;
+}
+
+.menu-section-top h2 {
+  font-size: 2rem;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.menu-item {
+  width: 33%;
+  padding: 20px;
+  background: var(--card-bg);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-img img {
+  width: 100%;
+}
+
+.menu-card-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.menu-card-bottom .ratings {
+  margin-bottom: 10px;
+}
