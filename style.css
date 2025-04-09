@@ -532,3 +532,203 @@ section {
   opacity: 0;
   transform: translateY(8rem);
 }
+
+/* ======== RESPONSIVE DESIGN ======== */
+@media only screen and (max-width: 1024px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    section {
+      padding: 40px 0px;
+    }
+  
+    .nav {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+    }
+  
+    .navigation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #13252fa8;
+      z-index: 99999;
+      display: none;
+    }
+  
+    .nav-menu {
+      position: absolute;
+      width: 250px;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background: var(--card-bg);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 999999;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .show-menu {
+      display: block;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  
+    .hero-content h2,
+    .offer-content h2 {
+      font-size: 2rem;
+      line-height: 40px;
+    }
+  
+    .dishes-section-top h2,
+    .menu-section-top h2,
+    .blog-top h2 {
+      font-size: 1.5rem;
+    }
+  
+    .dish-content h3 {
+      font-size: 0.9rem;
+    }
+  
+    .dish-price {
+      font-size: 1rem;
+    }
+  
+    .ratings span i {
+      font-size: 0.8rem;
+    }
+  
+    .ratings {
+      margin-bottom: 10px;
+    }
+  
+    .add-to-cart {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .about-content h3 {
+      font-size: 1.4rem;
+      line-height: 35px;
+    }
+    .view-more-btn,
+    .learn-more {
+      padding: 8px 30px;
+      font-size: 0.8rem;
+    }
+  
+    .logo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .menu-item h3 {
+      font-size: 1rem;
+    }
+  
+    .menu-card-bottom {
+      margin-top: 0;
+    }
+  
+    .blog-content h3 {
+      font-size: 1rem;
+    }
+  
+    .blog-content p {
+      line-height: 25px;
+      font-size: 0.8rem;
+    }
+  
+    .blog-item {
+      padding: 0;
+      border: none;
+    }
+  
+    .footer-logo {
+      width: 100%;
+    }
+  
+    .footer-wrapper {
+      flex-wrap: wrap;
+      row-gap: 2rem;
+    }
+  
+    .footer-box {
+      width: 30%;
+    }
+  
+    .footer-logo input {
+      padding: 8px;
+      font-size: 0.8rem;
+    }
+  
+    .subscribe-box {
+      width: 100%;
+    }
+  
+    .subscribe-btn {
+      padding: 8px 30px;
+      font-size: 0.8rem;
+    }
+  
+    .footer-link-title {
+      font-size: 1rem;
+    }
+  
+    .footer-link {
+      font-size: 0.8rem;
+    }
+  
+    .footer-copyright {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .hero-content,
+    .hero-img,
+    .about-content,
+    .about-img,
+    .offer-content,
+    .offer-img {
+      width: 100%;
+    }
+  
+    .hero-wrapper,
+    .about-wrapper,
+    .offer-wrapper {
+      flex-wrap: wrap;
+    }
+  
+    .hero-content {
+      padding-top: 0;
+      margin-bottom: 40px;
+    }
+  
+    .dish-item,
+    .menu-item,
+    .blog-item {
+      width: 100%;
+    }
+  
+    .dishes-wrapper {
+      flex-wrap: wrap;
+      row-gap: 1.5rem;
+    }
+  
+    .menu-wrapper,
+    .blog-wrapper {
+      flex-wrap: wrap;
+      row-gap: 1.5rem;
+    }
